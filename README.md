@@ -1,2 +1,0 @@
-# FXRates
-New FXRates repository 
