@@ -13,8 +13,9 @@ body {
 
 table#FXRateBoard {
 	width: 65%;
+	border:5px solid;
 	border-collapse: collapse;
-	border-color: rgba(46,134,193,0.5);
+	border-color: rgba(149,222,239,0.5);
 	margin-top:3em;
 	display: block;
 	margin-left: auto;
