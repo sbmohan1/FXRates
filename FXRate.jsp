@@ -7,11 +7,11 @@ body {
 	font-family: 'FoXE', Arial, Helvetica, sans-serif;
 	background-color: #2E86C1;
 	background-image:
-		url("https://www.smbcgroup.com/SMBC/media/SMBC/SMBC-Global_Map_2.jpg");
+		url("https://github.com/sbmohan1/FXRates/blob/master/background.jpg?raw=true");
 }
 
 
-table#table2 {
+table#FXRateBoard {
 	width: 65%;
 	border-collapse: collapse;
 	border-color: rgba(46,134,193,0.5);
@@ -21,39 +21,32 @@ table#table2 {
 	margin-right: auto;
 }
 
-table#table2 tr:nth-child(even) {
+table#FXRateBoard tr:nth-child(even) {
 	background-color: #F0F0F0;
 	border-bottom: 1px solid black;
 	border-color: #d2d5db;
 }
 
 
-table#table2 tr:nth-child(odd) {
+table#FXRateBoard tr:nth-child(odd) {
 	background-color: #F0F0F0;
 	border-bottom: 1px solid black;
 	border-color: #d2d5db;
 }
 
 
-table#table2 th {
+table#FXRateBoard th {
 	background-color: #F0F0F0;
 	color: #2E86C1;
 	padding: 5px;
 	width: 10%;
 }
 
-table#table2 td {
+table#FXRateBoard td {
 	padding: 5px;
 	text-align: center;
 	color: black;
 	font-size: 14px;
-}
-
-#teamLogo img {
-	max-width: 50px;
-	position: absolute;
-	right: 0px;
-	bottom: 0px;
 }
 
 #selectedCurrency {
@@ -78,9 +71,7 @@ table#table2 td {
 	height: 14px;
 	
 }
-
 </style>
-
 
 </head>
 
@@ -88,8 +79,7 @@ table#table2 td {
 	
 	<p id="caption">FX Rates 2017/07/25</p>
 	
-	<table id="table2"></table>
-	
+	<table id="FXRateBoard"></table>
 	
 	<form method="GET" action="FXRate">
 		
@@ -104,13 +94,11 @@ table#table2 td {
 		</select> 
 		
 	</form>
-	
-	<div id="teamLogo">
-		<img style=width: src="https://ih1.redbubble.net/image.42599949.8362/mp,550x550,gloss,ffffff,t.3u4.jpg" />
-	</div>
-	
+
 </body>
+
 <script type="text/javascript" src="table.js"></script>
 <script type="text/javascript" src="loadDisplay.js"></script>
 <script type="text/javascript" src="updateDisplay.js"></script>
+
 </html>
