@@ -52,9 +52,9 @@ table#FXRateBoard td {
 
 #selectedCurrency {
 	position: absolute; 
-	top: 10px; 
-	left: 1098px;
-	height:30px;
+	top: 20px; 
+	left: 996px;
+	height:35px;
     line-height:30px;
     margin-left:auto;
 }
@@ -65,6 +65,7 @@ table#FXRateBoard td {
 	word-spacing: 3px;
 	font-family: 'FoXE', Arial, Helvetica, sans-serif;
 	font-size: 17px;
+	padding-left: 14.5em;
 }
 
 #flags {
